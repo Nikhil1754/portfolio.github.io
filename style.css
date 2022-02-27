@@ -10,9 +10,10 @@ body{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #6c757d;
+    color:black;
+    background-color:white;
     text-align: left;
-    background-color: white;
+    
 }
 .about-img{
     right: -20px;
@@ -104,7 +105,14 @@ position-absolute{
     transition: all 0.5s;
      
 }
-.col :hover{
+.card :hover{
     box-shadow: 7px 7px 7px 7px rgb(173, 173, 185);
     transition: all 0.5s;
+}
+.card-body{
+    color:darkslategrey
+}
+.card-body :hover{
+    box-shadow: none;
+    transition: none;
 }
