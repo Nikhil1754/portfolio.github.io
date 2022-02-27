@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin: 0;
+    font-family: "Baloo Bhai 2";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: white;
+}
+.about-img{
+    right: -20px;
+    margin-left:-40px;
+}
+.btn{
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+.btn-white{
+    border: 2.4px solid white;
+    background-color: white;
+}
+.btn-blue{
+    border: 2.4px solid white;
+    color: white;
+}
+.hero-text{
+    margin-top: 150px;
+}
+.typed-cursor{
+    font-size: 45px;
+    color: white;
+}
+a{
+    color: #0bceaf;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: #078571;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #ff000d;
+}
+.blue{
+    background-color:blue;
+    color: white;
+}
+.blue:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 241, 248);
+    border-radius: 2px solid blue;
+}
+position-absolute{
+    font-weight: 700;
+}
+.typewriter  {
+    font-family: sans-serif;
+    letter-spacing: .17em;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .17em solid white;
+    animation: typing 3.5s steps(30, end),blinking-cursor 1s infinite;
+}
+ 
+@keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 100%
+    }
+  }
+  
+  @keyframes blinking-cursor {
+    from,
+    to {
+      border-color: transparent
+    }
+    50% {
+      border-color: white;
+    }
+}
+.cal{
+    left: 20px;
+    
+}
+.ex-me{
+    margin-left:40px ;
+}
+.cen{
+    margin:auto
+   
+}
+.btr{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px rgb(91, 91, 216);
+    transition: all 0.5s;
+     
+}
+.col :hover{
+    box-shadow: 7px 7px 7px 7px rgb(173, 173, 185);
+    transition: all 0.5s;
+}
