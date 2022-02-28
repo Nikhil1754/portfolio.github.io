@@ -105,7 +105,7 @@ position-absolute{
     transition: all 0.5s;
      
 }
-.card :hover{
+.col :hover{
     box-shadow: 7px 7px 7px 7px rgb(173, 173, 185);
     transition: all 0.5s;
 }
